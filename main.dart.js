@@ -91914,7 +91914,7 @@ s=A.b([k,B.iU,j,B.eq,A.cO(A.b([h,B.ep,o.OT(i,B.JK,o.ch,!1,"3D Model",s,new A.aqg
 if(o.a.c==null){k=A.av(13,B.p.A()>>>16&255,B.p.A()>>>8&255,B.p.A()&255)
 j=A.bu(10)
 i=A.a4j(A.av(B.d.aO(25.5),B.p.A()>>>16&255,B.p.A()>>>8&255,B.p.A()&255),1)
-B.b.R(s,A.b([A.cI(n,new A.zp(o.CW,new A.aqj(o),B.p,B.a_k,B.ZZ,B.aE,n),B.t,n,n,new A.c2(k,n,i,j,n,n,B.Z),n,n,n,B.oX,n,n,n),B.eq],r))}if(o.a.c==null&&o.CW){k=o.dx
+B.b.R(s,A.b([A.cI(n,new A.zp(o.CW,new A.aqj(o),B.p,B.a_l,B.ZZ,B.aE,n),B.t,n,n,new A.c2(k,n,i,j,n,n,B.Z),n,n,n,B.oX,n,n,n),B.eq],r))}if(o.a.c==null&&o.CW){k=o.dx
 j=o.qJ("Select Existing Furniture")
 i=o.cy
 h=A.Z(i).i("a3<1,he<p>>")
@@ -92456,7 +92456,7 @@ s=A.aio(J.bC(a))
 return B.d.af(s==null?0:s,2)},
 K(a){var s,r,q,p,o,n=this,m=null,l=n.d,k=A.Z(l).i("aJ<1>"),j=A.a2(new A.aJ(l,new A.awL(n),k),k.i("o.E"))
 l=t.p
-k=A.b([A.cO(A.b([B.a_5,A.aLh(B.K1,B.ZN,n.gaiJ(),A.aLj(m,m,m,m,m,m,m,m,m,m,m,m,B.IA,m,new A.bU(A.bu(30),B.m),new A.aF(B.k2,1,B.n,-1),m,m,m,m))],l),B.D,B.cw,B.H,0),B.mn,A.cI(m,m,B.t,A.av(38,B.p.A()>>>16&255,B.p.A()>>>8&255,B.p.A()&255),m,m,m,1,m,m,m,m,1/0),B.mo,A.cO(A.b([A.cA(A.dR(A.rV(m,B.bQ,!1,m,!0,B.C,m,A.yq(),n.r,m,m,m,m,m,2,A.qu(m,new A.dw(4,A.bu(30),B.dI),m,B.oX,m,m,m,m,!0,new A.dw(4,A.bu(30),new A.aF(A.av(51,B.p.A()>>>16&255,B.p.A()>>>8&255,B.p.A()&255),1,B.n,-1)),m,m,m,m,m,B.j,!0,m,m,m,m,new A.dw(4,A.bu(30),B.jI),m,m,m,m,m,m,m,m,m,"Search products...",m,m,m,m,m,m,m,m,m,!0,!0,m,B.i_,m,m,m,m,m,m,m,m,m,m,m,m),B.a_,!0,m,!0,m,!1,m,B.bG,m,m,m,m,m,m,m,m,1,m,m,!1,"\u2022",m,new A.awM(n),m,n.ganU(),m,!1,m,m,!1,m,!0,m,B.bO,m,m,m,m,m,m,m,m,m,m,m,m,!0,B.ao,m,B.cS,m,m,m,m),52,m),1),B.AZ,A.dR(A.aVn(B.JW,B.a_h,new A.awN(n,a),A.pZ(m,m,B.ok,m,m,m,0,m,m,m,m,m,B.Ip,m,new A.bU(A.bu(14),B.m),m,m,m,m,m)),46,165)],l),B.D,B.A,B.H,0),B.B1],l)
+k=A.b([A.cO(A.b([B.a_5,A.aLh(B.K1,B.ZN,n.gaiJ(),A.aLj(m,m,m,m,m,m,m,m,m,m,m,m,B.IA,m,new A.bU(A.bu(30),B.m),new A.aF(B.k2,1,B.n,-1),m,m,m,m))],l),B.D,B.cw,B.H,0),B.mn,A.cI(m,m,B.t,A.av(38,B.p.A()>>>16&255,B.p.A()>>>8&255,B.p.A()&255),m,m,m,1,m,m,m,m,1/0),B.mo,A.cO(A.b([A.cA(A.dR(A.rV(m,B.bQ,!1,m,!0,B.C,m,A.yq(),n.r,m,m,m,m,m,2,A.qu(m,new A.dw(4,A.bu(30),B.dI),m,B.oX,m,m,m,m,!0,new A.dw(4,A.bu(30),new A.aF(A.av(51,B.p.A()>>>16&255,B.p.A()>>>8&255,B.p.A()&255),1,B.n,-1)),m,m,m,m,m,B.j,!0,m,m,m,m,new A.dw(4,A.bu(30),B.jI),m,m,m,m,m,m,m,m,m,"Search products...",m,m,m,m,m,m,m,m,m,!0,!0,m,B.i_,m,m,m,m,m,m,m,m,m,m,m,m),B.a_,!0,m,!0,m,!1,m,B.bG,m,m,m,m,m,m,m,m,1,m,m,!1,"\u2022",m,new A.awM(n),m,n.ganU(),m,!1,m,m,!1,m,!0,m,B.bO,m,m,m,m,m,m,m,m,m,m,m,m,!0,B.ao,m,B.cS,m,m,m,m),52,m),1),B.AZ,A.dR(A.aVn(B.JW,B.a_i,new A.awN(n,a),A.pZ(m,m,B.ok,m,m,m,0,m,m,m,m,m,B.Ip,m,new A.bU(A.bu(14),B.m),m,m,m,m,m)),46,165)],l),B.D,B.A,B.H,0),B.B1],l)
 s=n.w
 if(s.length!==0){r=A.Z(s).i("a3<1,qf>")
 s=A.a2(new A.a3(s,new A.awO(n),r),r.i("at.E"))
@@ -92554,7 +92554,7 @@ s=A.cA(A.dC(k!=null&&J.f5(k)?A.zA(A.bu(8),A.aFu(k,p,B.bZ,45,45),B.bn):B.py,p,p),
 r=n.h(o,"furniture_name")
 r=r==null?p:J.bC(r)
 q=this.a
-return A.cI(p,A.cO(A.b([s,A.y9(r==null?"":r,2),A.y9("\u20b1 "+q.Qz(n.h(o,"price")),1),A.cA(A.dC(A.aLh(B.JZ,B.a_m,new A.awi(q,o),A.aLj(p,p,p,p,p,p,p,p,p,p,p,p,p,p,new A.bU(A.bu(30),B.m),new A.aF(B.k2,1,B.n,-1),p,p,p,p)),p,p),1)],t.p),B.D,B.A,B.H,0),B.t,p,p,new A.c2(p,p,new A.d2(B.m,B.m,new A.aF(l,1,B.n,-1),B.m),p,p,p,B.Z),p,p,p,B.Ik,p,p,p)},
+return A.cI(p,A.cO(A.b([s,A.y9(r==null?"":r,2),A.y9("\u20b1 "+q.Qz(n.h(o,"price")),1),A.cA(A.dC(A.aLh(B.JZ,B.a_g,new A.awi(q,o),A.aLj(p,p,p,p,p,p,p,p,p,p,p,p,p,p,new A.bU(A.bu(30),B.m),new A.aF(B.k2,1,B.n,-1),p,p,p,p)),p,p),1)],t.p),B.D,B.A,B.H,0),B.t,p,p,new A.c2(p,p,new A.d2(B.m,B.m,new A.aF(l,1,B.n,-1),B.m),p,p,p,B.Z),p,p,p,B.Ik,p,p,p)},
 $S:566}
 A.awi.prototype={
 $0(){return this.a.r6(this.b)},
@@ -92940,7 +92940,7 @@ m.push(B.ds)
 m.push(new A.Tj(q.x,p))
 m.push(B.B0)
 m.push(B.HI)
-m.push(new A.bH(B.II,A.cO(A.b([B.a_l,A.bV("\u20b1"+B.d.af(q.a.a,2),p,p,p,B.YX,p,p)],n),B.D,B.cw,B.H,0),p))
+m.push(new A.bH(B.II,A.cO(A.b([B.a_m,A.bV("\u20b1"+B.d.af(q.a.a,2),p,p,p,B.YX,p,p)],n),B.D,B.cw,B.H,0),p))
 m.push(B.B2)
 if(l.toLowerCase()==="pending"){l=q.b
 if(l.y)n=B.Fn
@@ -93035,7 +93035,7 @@ else k=q.toLowerCase()==="approved"?B.o3:B.o7
 j=A.bu(20)
 if(q.toLowerCase()==="pending")i=B.M
 else i=q.toLowerCase()==="approved"?B.oh:B.k0
-return A.cI(h,A.cO(A.b([s,f,p,r,A.cA(A.dC(A.cI(h,A.bV(q,h,h,h,A.f_(h,h,i,h,h,h,h,h,h,h,h,12,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h),B.t,h,h,new A.c2(k,h,h,j,h,h,B.Z),h,h,h,B.Ir,h,h,h),h,h),1),A.cA(A.dC(A.qt(!1,A.bu(20),!0,A.cI(h,B.a_g,B.t,h,h,new A.c2(B.GO,h,h,A.bu(20),A.b([new A.bp(0,B.O,A.av(13,B.l.A()>>>16&255,B.l.A()>>>8&255,B.l.A()&255),B.ed,4)],t.V),h,B.Z),h,h,h,B.Iy,h,h,h),h,!0,h,h,h,h,h,h,h,h,new A.axa(g,this.a,a),h,h,h,h,h,h,h),h,h),1)],t.p),B.D,B.A,B.H,0),B.t,h,h,B.nw,h,h,h,B.dS,h,h,h)},
+return A.cI(h,A.cO(A.b([s,f,p,r,A.cA(A.dC(A.cI(h,A.bV(q,h,h,h,A.f_(h,h,i,h,h,h,h,h,h,h,h,12,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h),B.t,h,h,new A.c2(k,h,h,j,h,h,B.Z),h,h,h,B.Ir,h,h,h),h,h),1),A.cA(A.dC(A.qt(!1,A.bu(20),!0,A.cI(h,B.a_h,B.t,h,h,new A.c2(B.GO,h,h,A.bu(20),A.b([new A.bp(0,B.O,A.av(13,B.l.A()>>>16&255,B.l.A()>>>8&255,B.l.A()&255),B.ed,4)],t.V),h,B.Z),h,h,h,B.Iy,h,h,h),h,!0,h,h,h,h,h,h,h,h,new A.axa(g,this.a,a),h,h,h,h,h,h,h),h,h),1)],t.p),B.D,B.A,B.H,0),B.t,h,h,B.nw,h,h,h,B.dS,h,h,h)},
 $S:234}
 A.axa.prototype={
 $0(){var s=this.a.a
@@ -101530,8 +101530,8 @@ B.ah=new A.iA(6)
 B.Xl=new A.n(!0,B.p,null,null,null,null,20,B.ah,null,2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.a_a=new A.bI("POPULAR ITEMS",null,B.Xl,null,null,null,null,null,null)
 B.Fl=new A.ha(B.T,null,null,B.a_a,null)
-B.a_i=new A.bI("No archived products.",null,B.mD,null,null,null,null,null,null)
-B.Fm=new A.ha(B.T,null,null,B.a_i,null)
+B.a_j=new A.bI("No archived products.",null,B.mD,null,null,null,null,null,null)
+B.Fm=new A.ha(B.T,null,null,B.a_j,null)
 B.a2M=new A.apP(0,"material")
 B.jM=new A.ua(null,B.p,null,null)
 B.nV=new A.ha(B.T,null,null,B.jM,null)
@@ -102263,8 +102263,8 @@ B.Jm=new A.B6("Frequency",null)
 B.IV=new A.hY(1,B.bP,B.Jm,null)
 B.LP=s([B.IZ,B.IV],t.p)
 B.mC=new A.n(!0,B.M,null,null,null,null,null,B.ah,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a_j=new A.bI("All Preordered Furniture:",null,B.mC,null,null,null,null,null,null)
-B.J_=new A.hY(4,B.bP,B.a_j,null)
+B.a_k=new A.bI("All Preordered Furniture:",null,B.mC,null,null,null,null,null,null)
+B.J_=new A.hY(4,B.bP,B.a_k,null)
 B.ZX=new A.bI("Item Price",null,B.mC,B.et,null,null,null,null,null)
 B.IY=new A.hY(2,B.bP,B.ZX,null)
 B.LR=s([B.J_,B.IY],t.p)
@@ -104263,15 +104263,15 @@ B.a_9=new A.bI("Verify",null,B.Yn,null,null,null,null,null,null)
 B.a_b=new A.bI("Cancel",null,B.BF,null,null,null,null,null,null)
 B.a_c=new A.bI("Manage Receipts",null,null,null,null,null,null,null,null)
 B.a_e=new A.bI("Reset Admin Password",null,B.BG,null,null,null,null,null,null)
+B.a_g=new A.bI("Restore",null,B.mD,null,null,null,null,null,null)
 B.Va=new A.n(!0,B.M,null,null,null,null,12,B.cO,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a_g=new A.bI("View",null,B.Va,null,null,null,null,null,null)
+B.a_h=new A.bI("View",null,B.Va,null,null,null,null,null,null)
 B.Wz=new A.n(!0,B.j,null,null,null,null,13,B.a3,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a_h=new A.bI("Add New Product",null,B.Wz,null,null,null,null,null,null)
+B.a_i=new A.bI("Add New Product",null,B.Wz,null,null,null,null,null,null)
 B.W3=new A.n(!0,B.p,null,null,null,null,null,B.cO,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a_k=new A.bI("Add to existing furniture?",null,B.W3,null,null,null,null,null,null)
+B.a_l=new A.bI("Add to existing furniture?",null,B.W3,null,null,null,null,null,null)
 B.X_=new A.n(!0,B.I,null,null,null,null,14,B.ah,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a_l=new A.bI("Total Price:",null,B.X_,null,null,null,null,null,null)
-B.a_m=new A.bI("Unarchive",null,B.mD,null,null,null,null,null,null)
+B.a_m=new A.bI("Total Price:",null,B.X_,null,null,null,null,null,null)
 B.Zj=new A.n(!0,B.jP,null,null,null,null,12,B.cO,null,null,null,null,null,null,null,null,null,B.mw,null,null,null,null,null,null,null,null)
 B.a_n=new A.bI("Forgot Password?",null,B.Zj,null,null,null,null,null,null)
 B.a2L=new A.aoI(0,"system")
