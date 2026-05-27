@@ -27055,7 +27055,7 @@ this.b=b},
 ax9:function ax9(a){this.a=a},
 awV:function awV(a){this.a=a},
 awW:function awW(a){this.a=a},
-ax5:function ax5(a,b,c,d,e,f,g,h,i,j,k){var _=this
+ax5:function ax5(a,b,c,d,e,f,g,h,i,j){var _=this
 _.a=a
 _.b=b
 _.c=c
@@ -27065,9 +27065,8 @@ _.f=f
 _.r=g
 _.w=h
 _.x=i
-_.y=j
-_.z=k},
-ax4:function ax4(a,b,c,d,e,f,g,h,i,j,k){var _=this
+_.y=j},
+ax4:function ax4(a,b,c,d,e,f,g,h,i,j){var _=this
 _.a=a
 _.b=b
 _.c=c
@@ -27077,8 +27076,7 @@ _.f=f
 _.r=g
 _.w=h
 _.x=i
-_.y=j
-_.z=k},
+_.y=j},
 ax0:function ax0(a,b,c,d){var _=this
 _.a=a
 _.b=b
@@ -92835,7 +92833,7 @@ a9=a7*a8
 b4.a+=a9
 i.push(A.af(["furniture_name",a6,"quantity",a7,"line_total",a9],g,f))}}}b5=this.c
 b5.toString
-A.Kh(!0,new A.ax5(b4,this,s,o,p,n,j,k,i,m,l),b5,f)},
+A.Kh(!0,new A.ax5(b4,this,l,o,p,n,j,k,i,m),b5,f)},
 EP(a){var s,r,q,p,o,n,m,l,k,j,i,h,g=null
 for(s=this.w,r=s.length,q=t.P,p=t.j,o=0,n=0;n<s.length;s.length===r||(0,A.J)(s),++n){m=s[n]
 l=J.ag(m)
@@ -92927,26 +92925,27 @@ return this.a.z?B.f.b5(q,s):B.f.b5(s,q)},
 $S:572}
 A.ax5.prototype={
 $1(a){var s=this
-return new A.mF(new A.ax4(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y,s.z),null)},
+return new A.mF(new A.ax4(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.w,s.x,s.y),null)},
 $S:122}
 A.ax4.prototype={
-$2(a,b){var s,r,q=this,p=null,o=A.bu(25),n=t.p,m=A.b([A.cO(A.b([A.dr(A.b([A.bV("Customer Items (ID: "+A.j(q.c)+")",p,p,p,B.XX,p,p),B.B3,A.bV("Name: "+A.j(q.d),p,p,p,B.XG,p,p)],n),B.aO,B.A,B.H),A.dr(A.b([A.bV("Email: "+A.j(q.e),p,p,p,B.BB,p,p),B.B3,A.bV("Phone: "+A.j(q.f),p,p,p,B.BB,p,p)],n),B.aO,B.A,B.H)],n),B.aO,B.cw,B.H,0),B.HK],n),l=q.r
-if(l.toLowerCase()==="denied"){s=q.w
+$2(a,b){var s,r,q=this,p=null,o=A.bu(25),n=q.c,m=t.p,l=A.b([A.cO(A.b([A.dr(A.b([A.bV("Receipt ID: "+A.j(n),p,p,p,B.XX,p,p),B.B3,A.bV("Name: "+A.j(q.d),p,p,p,B.XG,p,p)],m),B.aO,B.A,B.H),A.dr(A.b([A.bV("Email: "+A.j(q.e),p,p,p,B.BB,p,p),B.B3,A.bV("Phone: "+A.j(q.f),p,p,p,B.BB,p,p)],m),B.aO,B.A,B.H)],m),B.aO,B.cw,B.H,0),B.HK],m),k=q.r
+if(k.toLowerCase()==="denied"){s=q.w
 s=s!=null&&s.length!==0}else s=!1
 if(s){s=A.bu(12)
 r=A.a4j(B.o0,1)
-B.b.R(m,A.b([A.cI(p,A.cO(A.b([A.nO(B.JN,B.oB,p,20),B.AY,A.cA(A.dr(A.b([A.bV("Denial Reason",p,p,p,A.f_(p,p,B.jQ,p,p,p,p,p,p,p,p,13,p,p,B.ah,p,p,!0,p,p,p,p,p,p,p,p),p,p),B.B4,A.bV(q.w,p,p,p,A.f_(p,p,B.k0,p,p,p,p,p,p,p,p,13,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p)],n),B.aO,B.A,B.H),1)],n),B.aO,B.A,B.H,0),B.t,p,p,new A.c2(B.oq,p,r,s,p,p,B.Z),p,p,p,B.Iu,p,p,1/0),B.iU],n))}m.push(A.cO(B.LR,B.D,B.cw,B.H,0))
-m.push(B.ds)
-m.push(new A.Tj(q.x,p))
-m.push(B.B0)
-m.push(B.HI)
-m.push(new A.bH(B.II,A.cO(A.b([B.a_m,A.bV("\u20b1"+B.d.af(q.a.a,2),p,p,p,B.YX,p,p)],n),B.D,B.cw,B.H,0),p))
-m.push(B.B2)
-if(l.toLowerCase()==="pending"){l=q.b
-if(l.y)n=B.Fn
+B.b.R(l,A.b([A.cI(p,A.cO(A.b([A.nO(B.JN,B.oB,p,20),B.AY,A.cA(A.dr(A.b([A.bV("Denial Reason",p,p,p,A.f_(p,p,B.jQ,p,p,p,p,p,p,p,p,13,p,p,B.ah,p,p,!0,p,p,p,p,p,p,p,p),p,p),B.B4,A.bV(q.w,p,p,p,A.f_(p,p,B.k0,p,p,p,p,p,p,p,p,13,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),p,p)],m),B.aO,B.A,B.H),1)],m),B.aO,B.A,B.H,0),B.t,p,p,new A.c2(B.oq,p,r,s,p,p,B.Z),p,p,p,B.Iu,p,p,1/0),B.iU],m))}l.push(A.cO(B.LR,B.D,B.cw,B.H,0))
+l.push(B.ds)
+l.push(new A.Tj(q.x,p))
+l.push(B.B0)
+l.push(B.HI)
+l.push(new A.bH(B.II,A.cO(A.b([B.a_m,A.bV("\u20b1"+B.d.af(q.a.a,2),p,p,p,B.YX,p,p)],m),B.D,B.cw,B.H,0),p))
+l.push(B.B2)
+if(k.toLowerCase()==="pending"){k=q.b
+if(k.y)n=B.Fn
 else{s=q.y
-n=A.cO(A.b([A.uO(!1,B.ZO,p,p,p,p,p,p,new A.ax0(l,b,a,s),p,A.pZ(p,p,B.H_,p,p,p,0,p,p,B.p,p,p,p,p,new A.bU(A.bu(10),B.m),p,p,p,p,p)),B.ep,A.uO(!1,B.a_3,p,p,p,p,p,p,new A.ax1(l,s,q.z),p,A.pZ(p,p,B.oC,p,p,p,0,p,p,B.j,p,p,p,p,new A.bU(A.bu(10),B.m),p,p,p,p,p)),B.ep,A.wp(B.BH,new A.ax2(a),p)],n),B.D,B.fu,B.H,0)}m.push(n)}else m.push(new A.dW(B.jy,p,p,A.wp(B.BH,new A.ax3(a),p),p))
-return A.a3z(p,B.hm,A.dR(A.dr(m,B.D,B.A,B.aZ),p,550),new A.bU(o,B.m),p)},
+m=A.cO(A.b([A.uO(!1,B.ZO,p,p,p,p,p,p,new A.ax0(k,b,a,s),p,A.pZ(p,p,B.H_,p,p,p,0,p,p,B.p,p,p,p,p,new A.bU(A.bu(10),B.m),p,p,p,p,p)),B.ep,A.uO(!1,B.a_3,p,p,p,p,p,p,new A.ax1(k,s,n),p,A.pZ(p,p,B.oC,p,p,p,0,p,p,B.j,p,p,p,p,new A.bU(A.bu(10),B.m),p,p,p,p,p)),B.ep,A.wp(B.BH,new A.ax2(a),p)],m),B.D,B.fu,B.H,0)
+n=m}l.push(n)}else l.push(new A.dW(B.jy,p,p,A.wp(B.BH,new A.ax3(a),p),p))
+return A.a3z(p,B.hm,A.dR(A.dr(l,B.D,B.A,B.aZ),p,550),new A.bU(o,B.m),p)},
 $S:230}
 A.ax0.prototype={
 $0(){var s=0,r=A.D(t.H),q=this,p
