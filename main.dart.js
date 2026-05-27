@@ -92463,7 +92463,7 @@ s=A.bu(18)
 r=A.a4j(A.av(B.d.aO(25.5),B.p.A()>>>16&255,B.p.A()>>>8&255,B.p.A()&255),1)
 q=A.b([new A.bp(0,B.O,A.av(10,B.l.A()>>>16&255,B.l.A()>>>8&255,B.l.A()&255),B.il,10)],t.V)
 p=A.av(10,B.p.A()>>>16&255,B.p.A()>>>8&255,B.p.A()&255)
-p=A.cI(m,A.cO(A.b([A.k9("Image",1),A.k9("Product Name",2),A.k9("Price",1),A.k9("Category",2),A.k9("Color",1),A.k9("Description",3),A.k9("Edit",1),A.k9("Archive",1)],l),B.D,B.A,B.H,0),B.t,m,m,new A.c2(p,m,m,B.CU,m,m,B.Z),m,m,m,B.IM,m,m,m)
+p=A.cI(m,A.cO(A.b([A.k9("Image",1),A.k9("Product Name",2),A.k9("Price",1),A.k9("Category",2),A.k9("Color/Variant",2),A.k9("Description",3),A.k9("Edit",1),A.k9("Archive",1)],l),B.D,B.A,B.H,0),B.t,m,m,new A.c2(p,m,m,B.CU,m,m,B.Z),m,m,m,B.IM,m,m,m)
 if(n.f)o=B.nV
 else{o=j.length
 o=o===0?B.Fk:A.aFH(new A.awP(n,j),o,!1)}k.push(A.cA(A.cI(m,A.dr(A.b([p,A.cA(o,1)],l),B.D,B.A,B.H),B.t,m,m,new A.c2(B.j,m,r,s,q,m,B.Z),m,m,m,m,m,m,m),1))
