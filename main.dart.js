@@ -92056,8 +92056,12 @@ A.aqm.prototype={
 $1(a){return a.length===0?"Required":null},
 $S:121}
 A.aqn.prototype={
-$1(a){a.toString
-return A.aio(a)==null?"Invalid":null},
+$1(a){var s
+if(a==null||a.length===0)return"Required"
+s=A.aio(a)
+if(s==null)return"Invalid"
+if(s<0)return"Cannot be negative"
+return null},
 $S:121}
 A.aqd.prototype={
 $1(a){var s=null,r=J.ag(a),q=r.h(a,"category_id")
@@ -92179,7 +92183,7 @@ s=this.r
 s.L$=r
 s.H$=0
 this.aC()},
-K(a){var s,r,q,p=this,o=null,n=A.bu(18),m=A.b([new A.bp(2,B.O,A.av(38,B.l.A()>>>16&255,B.l.A()>>>8&255,B.l.A()&255),B.im,20)],t.V),l=A.dC(A.cI(o,new A.M1(new A.qr(A.aG3(o,o,new A.tV("assets/images/santiago_logo.jpg",o,o)),o,o,o,B.bZ,o),o),B.t,o,o,B.Dh,o,78,o,o,o,o,78),o,o),k=A.EJ(p.f,p.S_("example@email.com"),B.mz,1,!1,o,B.mB,o),j=p.d
+K(a){var s,r,q,p=this,o=null,n=A.bu(18),m=A.b([new A.bp(2,B.O,A.av(38,B.l.A()>>>16&255,B.l.A()>>>8&255,B.l.A()&255),B.im,20)],t.V),l=A.dC(A.cI(o,new A.M1(new A.qr(A.aG3(o,o,new A.tV("assets/images/santiago_logo.jpg",o,o)),o,o,o,B.bZ,o),o),B.t,o,o,B.Dh,o,78,o,o,o,o,78),o,o),k=A.EJ(p.f,p.S_("example@gmail.com"),B.mz,1,!1,o,B.mB,o),j=p.d
 j=A.EJ(p.r,p.Gp("Password",A.qp(o,o,A.nO(j?B.pv:B.pw,B.cp,o,20),o,o,new A.avY(p),o,o,o)),o,1,!j,new A.avZ(p),B.mB,o)
 s=A.wp(B.a_n,p.gadQ(),A.aGi(o,o,o,o,o,o,o,o,o,o,o,B.TW,B.aE,o,o,o,o,B.ly,o,o))
 r=p.e?o:p.gae6()
@@ -92201,7 +92205,7 @@ A.avR.prototype={
 $0(){this.a.e=!1},
 $S:0}
 A.avO.prototype={
-$1(a){var s=null,r=A.bu(14),q=this.b,p=this.a,o=t.p,n=A.dr(A.b([B.a_6,B.iU,A.rV(s,B.bQ,!1,s,!0,B.C,s,A.yq(),q,s,s,s,s,s,2,p.S_("admin@email.com"),B.a_,!0,s,!0,s,!1,s,B.bG,s,s,s,s,B.mz,s,s,s,1,s,s,!1,"\u2022",s,s,s,s,s,!1,s,s,!1,s,!0,s,B.bO,s,s,s,s,s,s,s,s,s,s,s,B.BC,!0,B.ao,s,B.cS,s,s,s,s)],o),B.aO,B.A,B.aZ)
+$1(a){var s=null,r=A.bu(14),q=this.b,p=this.a,o=t.p,n=A.dr(A.b([B.a_6,B.iU,A.rV(s,B.bQ,!1,s,!0,B.C,s,A.yq(),q,s,s,s,s,s,2,p.S_("example@gmail.com"),B.a_,!0,s,!0,s,!1,s,B.bG,s,s,s,s,B.mz,s,s,s,1,s,s,!1,"\u2022",s,s,s,s,s,!1,s,s,!1,s,!0,s,B.bO,s,s,s,s,s,s,s,s,s,s,s,B.BC,!0,B.ao,s,B.cS,s,s,s,s)],o),B.aO,B.A,B.aZ)
 return A.a3z(A.b([A.wp(B.ZM,new A.avM(a),s),A.uO(!1,B.a_9,s,s,s,s,s,s,new A.avN(p,q,a),s,A.pZ(s,s,B.oy,s,s,s,0,s,s,s,s,s,s,s,new A.bU(A.bu(8),B.m),s,s,s,s,s))],o),B.jV,n,new A.bU(r,B.m),B.a_e)},
 $S:228}
 A.avM.prototype={
